@@ -1,0 +1,312 @@
+*{
+  background-repeat: no-repeat;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #a69380;
+}
+
+.sidebar{
+  display: inline-block;
+  align-items: start;
+  position: sticky;
+  margin: auto;
+  margin-left: 10px;
+  transform: translateY(-80%);
+  transition: transform .5s cubic-bezier(.4,0,.2,1);
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  height: 80vh;
+  background-color: #90816B;
+  border-radius: 15px;
+}
+
+#fire{
+  background-image: url(http://lorempixel.com/300/200/sports/2/);
+}
+
+.sidebar:not(:hover){
+  transition: 0.5s;
+}
+
+.sidebar:hover{
+  transform: translateY(0);
+  transition: 0.5s;
+}
+
+.quickbutton{
+  text-decoration: none;
+  color: #4f473e;
+  justify-self: center;
+  font-size: 22px;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.quickbutton:hover{
+  transition: color .6s;
+  color: #DE891E;
+}
+
+.header{
+  color: #4f473e;
+  margin-bottom: 7px;
+}
+
+#header-center{
+  color: #4f473e;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -20vh;
+  margin-bottom: 10px;
+}
+
+#header-center2{
+  color: #4f473e;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.text-h{
+  color: #4f473e;
+  position: justify;
+  font-size: 17px;
+}
+
+.TextLink{
+  text-decoration: none;
+  color: #CD3F25;
+}
+
+.box1{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  padding: 10px;
+  width: 50%;
+  top: 50%;
+  margin-top: -35vh;
+}
+
+.boxf{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  padding: 10px;
+  width: 50%;
+  top: 50%;
+  margin-top: -10vh;
+}
+
+.box{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  padding: 10px;
+  width: 50%;
+  top: 50%;
+  margin-top: 20vh;
+}
+
+.bosspic1 {
+  position: left;
+  border-radius: 2vh;
+  margin-left: 30px;
+  margin-top: -30vh;
+}
+
+.bosspic {
+  position: left;
+  border-radius: 2vh;
+  margin-left: 30px;
+  width: 41vh;
+  height: 41vh;
+  margin-top: -30vh;
+}
+
+.textbox{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  padding: 10px;
+  width: 50%;
+  top: 50%;
+  margin-top: -2vh;
+}
+
+.picbox{
+  background-image: url(../images/Ds3.webp);
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+}
+
+.piclore{
+  background-image: url(../images/hollow1.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  background-position:center;
+  height: 40vh;
+  width: 100%;
+}
+
+.picboss{
+  background-image: url(../images/kp.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+}
+
+.picnpc{
+  background-image: url(../images/yttt.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  background-position:center;
+  height: 40vh;
+  width: 100%;
+}
+
+.picarea{
+  background-image: url(../images/bro.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  background-position:center;
+  height: 40vh;
+  width: 100%;
+}
+
+.picdlc{
+  background-image: url(../images/ari.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+}
+
+.video{
+  margin-top: 5vh;
+}
+
+.containerpic1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 20px;
+  margin-top: -30vh;
+  margin-left: -10vh;
+}
+
+.containerpic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; 
+  margin-left: -14vh;
+}
+
+.containerpic img {
+  width: 20%; 
+  height: auto;
+  margin-right: 17px;
+}
+
+.containerpic1 img{
+  width: 20%; 
+  height: auto;
+  margin-right: 17px;
+  box-shadow: #CD3F25;
+}
+
+.containerpic > img{
+  border-radius: 20px;
+}
+
+.containerpic1 > img{
+  border-radius: 20px;
+}
+
+.containerpic .text-h {
+  width: 45%; 
+  text-align: right;
+  margin-left: 0px; 
+}
+
+.containerpic1 .text-h {
+  width: 45%; 
+  text-align: right;
+  margin-left: 0px; 
+}
+
+.title{
+  color: #4f473e;
+  padding-left: 20px;
+}
+
+.containerpic .title {
+  font-size: 2em; 
+  text-align: center;
+}
+
+.containerpic1 .title {
+  font-size: 2em; 
+  margin-left: 13vh;
+  text-align: center;
+}
+
+.chatbox{
+  display: flex;
+  align-items: right;
+  width: 50vh;
+  height: 50vh;
+
+}
+
+.section{
+  background-color: #716553;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.list{
+  color: #4f473e;
+  margin: auto;
+  position: justify;
+  font-size: 3vh;
+}
+
+.picc{
+  margin-left: 15vh;
+  border-radius: 10px;
+  width: 70vh;
+  height: 50vh;
+  border-right: 1px solid goldenrod;
+  border-top: 1px solid goldenrod;
+}
+
+#drr{
+  margin-right: 20vh ;
+  float: right;
+}
+
